@@ -1,1 +1,84 @@
-# Resume-task-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Vasanthan R</title>
+</head>
+<body>
+
+    <center>
+        <h1>VASANTHAN R</h1>
+        <p>
+            <b>Address:</b> Salem | 
+            <b>Email:</b> <a href="mailto:vasanthanrajarajan@gmail.com">vasanthanrajarajan@gmail.com</a> | 
+            <b>Phone:</b> +91 6369274957
+        </p>
+    </center>
+
+    <hr>
+
+    <h2>Career Objective</h2>
+    <p>
+        An enthusiastic and motivated Computer Science postgraduate student looking to start a professional career in web development and software engineering. Aiming to leverage strong foundational skills in HTML, JavaScript, and programming to contribute to team success.
+    </p>
+
+    <hr>
+
+    <h2>Education Qualification</h2>
+    
+    <h3>Postgraduate Degree</h3>
+    <p>
+        <b>Course:</b> Master of Computer Applications (MCA) / IMSc Computer Science<br>
+        <b>Institution:</b> Periyar University, Salem<br>
+        <b>Status:</b> Pursuing
+    </p>
+
+    <h3>Undergraduate Degree</h3>
+    <p>
+        <b>Course:</b> Bachelor of Computer Science<br>
+        <b>Institution:</b> [Your Previous College Name]<br>
+        <b>Year of Passing:</b> [Year]
+    </p>
+
+    <hr>
+
+    <h2>Technical Skills</h2>
+    <p>
+        <b>Programming Languages:</b> Java (Advanced), Python, PHP, JavaScript<br>
+        <b>Web Technologies:</b> HTML5, Core Web Development Concepts (HTTP Protocol)<br>
+        <b>Databases:</b> MySQL<br>
+        <b>Development Tools:</b> VS Code
+    </p>
+
+    <hr>
+
+    <h2>Academic Projects</h2>
+    <h3>Online Car Rental Management System</h3>
+    <p>
+        <b>Technologies Used:</b> PHP, Python, MySQL, HTML, JavaScript<br>
+        <b>Description:</b> Developed a web-based application designed to streamline online car bookings, manage vehicle inventory, and track customer rental data efficiently.
+    </p>
+
+    <hr>
+
+    <h2>Personal Details</h2>
+    <p>
+        <b>Gender:</b> Male<br>
+        <b>Languages Known:</b> Tamil, English<br>
+        <b>Hobbies:</b> Playing Badminton
+    </p>
+
+    <hr>
+
+    <h2>Declaration</h2>
+    <p>
+        I hereby declare that all the information details mentioned above are true and correct to the best of my knowledge.
+    </p>
+    
+    <br>
+    <p><b>Place:</b> Salem</p>
+    <p><b>Date:</b> </p>
+
+</body>
+</html>
