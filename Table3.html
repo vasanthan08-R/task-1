@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+<form>
+    <table border="1" cellpadding="5" cellspacing="0" align="center">
+        <tr>
+            <th colspan="2">Fill in the Form Below</th>
+        </tr>
+
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td>
+                <input type="text" id="name" name="name">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+                <input type="password" id="password" name="password">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="feedback">Feedback</label></td>
+            <td>
+                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Subject</td>
+            <td>
+                <input type="checkbox" id="tamil" name="subject" value="Tamil">
+                <label for="tamil">Tamil</label>
+
+                <input type="checkbox" id="english" name="subject" value="English">
+                <label for="english">English</label>
+
+                <input type="checkbox" id="social" name="subject" value="Social">
+                <label for="social">Social</label>
+
+                <input type="checkbox" id="science" name="subject" value="Science">
+                <label for="science">Science</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button type="reset">Reset All</button>
+                <button type="submit">Submit Above Details</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
