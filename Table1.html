@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<form>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <tr align="center">
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Sex</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="eyeColor">Eye Color</label></td>
+            <td>
+                <select id="eyeColor" name="eyeColor">
+                    <option>Black</option>
+                    <option>Blue</option>
+                    <option>Brown</option>
+                    <option>Red</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Check all that apply</td>
+            <td>
+                <input type="checkbox" id="tall" name="height">
+                <label for="tall">Over 6 feet tall</label><br>
+
+                <input type="checkbox" id="weight" name="weight">
+                <label for="weight">Over 200 pounds</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <label for="ability">Describe your athletic ability:</label><br>
+                <textarea id="ability" name="ability" rows="5" cols="40"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Enter my information">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
