@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+<form>
+    <fieldset style="border:2px solid black; width:500px;">
+        <h2 style="color:blue; text-align:center;">Please Complete Our Survey</h2>
+
+        <table cellpadding="5" cellspacing="3">
+
+            <tr>
+                <td colspan="2"><b>Contact Information</b></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td><label for="email">Email Address :</label></td>
+                <td><input type="email" id="email" name="email" size="20"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td><label for="fname">First Name :</label></td>
+                <td><input type="text" id="fname" name="fname" size="20"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td><label for="lname">Last Name :</label></td>
+                <td><input type="text" id="lname" name="lname" size="20"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Geographic Information</b></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td><label for="state">State :</label></td>
+                <td><input type="text" id="state" name="state" placeholder="Two Characters"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td><label for="zipcode">Zip Code :</label></td>
+                <td><input type="text" id="zipcode" name="zipcode" placeholder="Five Digits"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>How did you hear about us?</b></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td>Web Search</td>
+                <td><input type="checkbox" name="source" value="Web Search"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td>Twitter</td>
+                <td><input type="checkbox" name="source" value="Twitter"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td>Instagram</td>
+                <td><input type="checkbox" name="source" value="Instagram"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td>Facebook</td>
+                <td><input type="checkbox" name="source" value="Facebook"></td>
+            </tr>
+
+            <tr style="color:blue;">
+                <td>Email Message</td>
+                <td><input type="checkbox" name="source" value="Email"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <b>Thank you for taking our survey!</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <button type="reset">Reset</button>
+                </td>
+                <td align="center">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>
