@@ -1,1 +1,78 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Feedback Form</title>
+</head>
+<body>
+
+<form>
+    <h1>My Feedback Form</h1>
+
+    <ul>
+        <li>
+            Name :
+            <input type="text" name="name" required>
+        </li>
+        <br>
+
+        <li>
+            Email :
+            <input type="email" name="email" required>
+        </li>
+        <br>
+
+        <li>
+            Password :
+            <input type="password" name="password" required>
+        </li>
+        <br>
+
+        <li><b>Please check all the emotions that apply to you:</b></li>
+        <ul>
+            <li><input type="checkbox" name="emotion" value="Angry"> Angry</li>
+            <li><input type="checkbox" name="emotion" value="Sad"> Sad</li>
+            <li><input type="checkbox" name="emotion" value="Happy"> Happy</li>
+            <li><input type="checkbox" name="emotion" value="Ambivalent"> Ambivalent</li>
+        </ul>
+
+        <li><b>How satisfied were you with our service?</b></li>
+        <ul>
+            <li><input type="radio" name="satisfaction" value="Very Satisfied"> Very Satisfied</li>
+            <li><input type="radio" name="satisfaction" value="Satisfied"> Satisfied</li>
+            <li><input type="radio" name="satisfaction" value="Didn't Care"> Didn't Care</li>
+            <li><input type="radio" name="satisfaction" value="Dissatisfied"> Dissatisfied</li>
+            <li><input type="radio" name="satisfaction" value="Very Dissatisfied"> Very Dissatisfied</li>
+        </ul>
+
+        <li><b>Further Comments:</b></li>
+        <br>
+        <textarea name="comments" rows="4" cols="60"></textarea>
+        <br><br>
+
+        <li>
+            <b>Bio Photo:</b>
+            <input type="file" name="photo">
+        </li>
+        <br>
+
+        <li>
+            <b>Location Visited:</b>
+            <select name="location">
+                <option>Salem</option>
+                <option>Erode</option>
+                <option>Namakkal</option>
+                <option>Chennai</option>
+            </select>
+        </li>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </ul>
+</form>
+
+</body>
+</html>
